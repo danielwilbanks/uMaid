@@ -132,6 +132,12 @@
     <Compile Include="RegisterPage.xaml.cs">
       <DependentUpon>RegisterPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="requestMaid.xaml.cs">
+      <DependentUpon>requestMaid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="userMenu.xaml.cs">
+      <DependentUpon>userMenu.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -139,6 +145,8 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\girl_icon.png" />
+    <Content Include="Assets\home_icon.png" />
     <Content Include="Assets\lock.png" />
     <Content Include="Assets\robot.png" />
     <Content Include="Assets\user.png" />
@@ -169,6 +177,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="RegisterPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="requestMaid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="userMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\u_CreateListingView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
